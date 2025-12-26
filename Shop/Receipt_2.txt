@@ -1,0 +1,8 @@
+Receipt #2
+Cashier: Anna
+Date: 26.12.2025 16:23
+
+Milk                 x 5.00 = 6.24
+Banana               x 10.00 = 10.40
+
+TOTAL: 16.64

@@ -1,0 +1,7 @@
+Receipt #1
+Cashier: Anna
+Date: 26.12.2025 16:23
+
+Milk                 x 5.00 = 6.24
+
+TOTAL: 6.24
