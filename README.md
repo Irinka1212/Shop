@@ -64,6 +64,11 @@ CITB408 Програмиране с Java
 - `category`
 - `expirationDate`
 
+Методи:
+- `get` методи
+- `getDaysUntilExpiration`
+- `isExpired`
+
 #### Product Category
 - `FOOD`
 - `NON_FOOD`
