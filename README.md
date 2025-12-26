@@ -61,13 +61,12 @@ CITB408 Програмиране с Java
 - `id` 
 - `name`
 - `deliveryPrice`
-- `category` ProductCategory - FOOD/NON_FOOD
+- `category`
 - `expirationDate`
 
-Методи:
-- `get` методи
-- `getDaysUntilExpiration()`
-- `isExpired()`
+#### Product Category
+- `FOOD`
+- `NON_FOOD`
 
 #### Receipt
 Касова бележка:
