@@ -82,7 +82,7 @@ public class Receipt implements Serializable {
 
         for (ReceiptEntry e : entries) {
             pw.printf(
-                    "%-20s x %.2f = %.2f%n",
+                    "%s x %.2f = %.2f%n",
                     e.getProduct().getName(),
                     e.getQuantity(),
                     e.getTotalPrice()
@@ -90,7 +90,8 @@ public class Receipt implements Serializable {
         }
 
         pw.println();
-        pw.printf("TOTAL: %.2f%n", getTotal());
+        pw.printf("TOTAL (euro): %.2f%n", getTotal());
         pw.flush();
     }
+
 }
