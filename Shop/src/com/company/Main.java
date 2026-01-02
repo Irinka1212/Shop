@@ -48,10 +48,10 @@ public class Main {
             shop.processSale(thirdRegister, thirdClient, thirdCart);
 
             System.out.println("\nReceipts issued: " + shop.getReceiptCount());
-            System.out.printf("Total turnover (gross revenue from sales): %.2f%n", shop.getTotalTurnover());
-            System.out.printf("Total delivery cost: %.2f%n", shop.getTotalDeliveryCost());
-            System.out.printf("Total Profit (turnover - delivery cost): %.2f%n", shop.getTotalProfit());
-            System.out.printf("Salary expenses: %.2f%n", shop.getSalaryExpenses());
+            System.out.printf("Total turnover (gross revenue from sales) euro: %.2f%n", shop.getTotalTurnover());
+            System.out.printf("Total delivery cost (euro): %.2f%n", shop.getTotalDeliveryCost());
+            System.out.printf("Total Profit (turnover - delivery cost) euro: %.2f%n", shop.getTotalProfit());
+            System.out.printf("Salary expenses (euro): %.2f%n", shop.getSalaryExpenses());
 
             System.out.println("\nReading first receipt from file:");
             Util.readReceipt("Receipt_1.txt");
